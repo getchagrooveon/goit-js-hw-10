@@ -59,7 +59,3 @@ function createFullMarkup(data) {
   countryList.innerHTML = '';
   countryInfo.innerHTML = structure.join('');
 }
-
-// Якщо користувач повністю очищає поле пошуку, то HTTP-запит не виконується, а розмітка списку країн або інформації про країну зникає.
-//   countryList.innerHTML = ""
-// countryInfo.innerHTML = ""
